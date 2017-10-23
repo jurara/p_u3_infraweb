@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Etiquetas meta siempre van al inicio -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Bootstrap CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/micss.css">
+		<link rel="stylesheet" href="css/cssparafooter.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+	<%- partial("partial/_header")%>
+		<%- yield %>
+
+
+
+		<!--Primero JQuery, después Bootstrap-->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<!--<script src="js/mijs.js"></script>-->
+
+	</body>
+	<footer>
+		<%- partial("partial/_footer")%>
+	</footer>
+</html>

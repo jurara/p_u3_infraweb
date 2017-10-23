@@ -1,0 +1,39 @@
+body {
+    background: url('https://i.pinimg.com/originals/a0/3b/a9/a03ba9851fe1ad246935b497d9efe357.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p,h2,h3,h4,h5,h6,ul,pre{
+    color: #F8F8FF;
+    text-align: justify;
+}
+h1{
+    color: #F8F8FF;
+}
+.card{
+    background: lightgray;
+}
+
+p,pre{
+    font-size: 24px;
+}
+a{
+    color: #F8F8FF;
+
+}
+a:hover.mio {
+    background-color: lightblue;
+
+}
+
+a.mio{
+    font-size: 15px;
+}
+
+
+.mio{
+    font-size: 24px;
+}
