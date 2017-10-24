@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Etiquetas meta siempre van al inicio -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Bootstrap CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/micss.css">
+		<link rel="stylesheet" href="css/cssparafooter.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+    <audio autoplay="autoplay" controls style="display:none;" loop>
+        <source src="/mp3/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-university" aria-hidden="true"></i>Home <span
+                            class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="IA.html">IA &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="tendenciasweb.html">Tendencias web</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="cripto.html">Criptografia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="herramienta.html">Herramientas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="panelEmprendedores.html">Panel de Emprendedores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="carrousel.html">Carrousel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="modal.html">Modal</a>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Dia 2</a>
+                <div class="dropdown-menu m2" aria-labelledby="dropdown01">
+                    <a class="dropdown-item mio" href="impactoiot.html">Impacto de las redes en el IoT</a>
+                    <a class="dropdown-item mio" href="agronomia.html">Agronomia urbana y de presicion con el IoT</a>
+                    <a class="dropdown-item mio" href="haciadonde.html">Hacia dónde va la investigación en las ciencias de la información.</a>
+                    <a class="dropdown-item mio" href="disprob.html">Dispositivos robóticos y su integración en aplicaciones de realidad virtual.</a>
+                    <a class="dropdown-item mio" href="ciudadintel.html">Ciudades inteligentes.</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Dia 3</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item mio" href="machinele.html">Machine Learning 101.</a>
+                    <a class="dropdown-item mio" href="iot.html">Internet del Todo. </a>
+                    <a class="dropdown-item mio" href="realidad.html">Realidad virtual y animada.</a>
+                </div>
+            </li>
+        </ul>
+        <a href="https://twitter.com/jurara31?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @jurara31</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+</nav>
+<br><br><br>
+		<div class="row">
+    <div class="col-md-10 container">
+        <div class="container">
+            <div class="card">
+                <h3 class="card-header text-center bg-warning negro">Modal</h3>
+                <div class="card-block">
+                    <h4 class="card-title text-center negro">Como hacer una modal</h4>
+                    <div class="row">
+                        <div class="col-md-6" align="right">
+                            <p class="negro">Antes de comenzar con el componente modal de Bootstrap, asegúrese de leer lo siguiente ya
+                                que nuestras opciones de menú han cambiado recientemente.</p>
+
+                            <p class="negro">Los modales están construidos con HTML, CSS y JavaScript. Están posicionados sobre todo
+                                lo demás en el documento y eliminan el desplazamiento de 'body' modo que el contenido
+                                modal se desplaza en su lugar.
+                                Al hacer clic en el "telón de fondo" modal se cerrará automáticamente el modal.</p>
+                            <p class="negro">Bootstrap solo admite una ventana modal a la vez. Los modales anidados no son compatibles
+                                ya que creemos que son experiencias de usuario deficientes.
+                                El uso de Modals position: fixed, que a veces puede ser un poco particular acerca de su
+                                prestación. Siempre que sea posible, coloque su HTML modal en una posición de nivel
+                                superior para evitar posibles interferencias de otros elementos. Es probable que
+                                encuentre problemas al anidar un .modalelemento fijo dentro de otro.</p>
+                            <p class="negro">Una vez más, debido a position: fixed, hay algunas advertencias con el uso de modales en
+                                dispositivos móviles. Consulte nuestros documentos de soporte del navegador para obtener
+                                más información.</p>
+                            <p class="negro">Por último, el autofocusatributo HTML no tiene ningún efecto en modales. A continuación,
+                                le mostramos cómo puede lograr el mismo efecto con JavaScript personalizado.</p>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="w3-panel w3-card-2 w3-light-grey">
+                                <h4 class="negro">HTML Example</h4>
+                                <div class="w3-code htmlHigh notranslate"></div>
+                                <span><pre class="negro">&lt;div class="modal fade"&gt;
+    &lt;div class="modal-dialog" role="document"&gt;
+        &lt;div class="modal-content"&gt;
+            &lt;div class="modal-header"&gt;
+                &lt;h5 class="modal-title"&gt;Modal title&lt;/h5&gt;
+                &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+                    &lt;span aria-hidden="true"&gt;×&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;/div&gt;
+                    &lt;div class="modal-body"&gt;
+                        &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;div class="modal-footer"&gt;
+                &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;                          </pre>
+                                    </span>
+                            </div>
+
+                        </div>
+                        <!-- Button trigger modal -->
+                        <div class="col-md-4"></div>
+                        <div class="col-md-1">
+                            <form>
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                                    Ejemplo Modal
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title negro" id="exampleModalLabel">Titulo Modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="negro">Ejemplo Modal</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<!--Primero JQuery, después Bootstrap-->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<!--<script src="js/mijs.js"></script>-->
+
+	</body>
+	<footer>
+		<div class="miclase1">
+    <div class="col-md-12">
+        <h2 class="text-center home">Jurara's Project &copy; &reg; </h2>
+    </div>
+</div>
+	</footer>
+</html>
